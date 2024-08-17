@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Профиль"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:title="Поиск"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        />
+    <item android:title="Бронь"
+        android:id="@+id/reserve"
+        android:icon="@drawable/baseline_nightlife_24"
+        />
+    <item android:title="Избранное"
+        android:id="@+id/favorite"
+        android:icon="@drawable/baseline_favorite_24"
+        />
+    <item android:title="Меню"
+        android:id="@+id/menu"
+        android:icon="@drawable/baseline_menu_24"
+        />
+</menu>
