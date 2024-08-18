@@ -1,4 +1,7 @@
 package com.example.reserve.presentation.search
 
-class SearchViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+class SearchViewModel(app: Application) : AndroidViewModel(app) {
 }
