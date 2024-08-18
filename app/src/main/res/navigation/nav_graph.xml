@@ -10,4 +10,24 @@
         android:name="com.example.reserve.presentation.search.SearchFragment"
         android:label="Поиск"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.reserve.presentation.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.reserve.presentation.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.reserve.presentation.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/reserveFragment"
+        android:name="com.example.reserve.presentation.reserve.ReserveFragment"
+        android:label="fragment_reserve"
+        tools:layout="@layout/fragment_reserve" />
 </navigation>
